@@ -9,7 +9,7 @@ Esp32 chip is manufactured by Espressif®.
 Freenove ESP32 Board can be uploaded code using Arduino® IDE.
 > Arduino® is a trademark of Arduino LLC (https://www.arduino.cc/).
 
-<img src='ESP32_Pinout.png' width='100%'/>
+<img src='Freenove_ESP32_WROOM_Board_Pinout.png' width='100%'/>
 
 ### Download
 
