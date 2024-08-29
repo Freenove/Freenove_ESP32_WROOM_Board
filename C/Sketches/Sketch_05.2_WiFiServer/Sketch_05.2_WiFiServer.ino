@@ -30,12 +30,11 @@ void setup()
     Serial.println(WiFi.localIP());			
     Serial.printf("IP port: %d\n",port);			
     server.begin(port);								
-    WiFi.setAutoConnect(true);
     WiFi.setAutoReconnect(true);
 }
 
 void loop(){
- WiFiClient client = server.available();            // listen for incoming clients
+ WiFiClient client = server.accept();            // listen for incoming clients
   if (client) {                                     // if you get a client,
     Serial.println("Client connected.");
     while (client.connected()) {                    // loop while the client's connected
