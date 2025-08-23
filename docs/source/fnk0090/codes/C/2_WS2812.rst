@@ -1,5 +1,5 @@
 ##############################################################################
-Chapter WS2812
+Chapter 2 WS2812
 ##############################################################################
 
 This chapter will help you learn to use a more convenient RGB LED lamp, which requires only one GPIO control and can be connected in infinite series in theory. Each LED can be controlled independently.
@@ -94,6 +94,14 @@ Define the color values to be used, as red, green, blue, white, and black.
     :lines: 16-16
     :dedent:
 
+Define a variable to set the time interval for each led to light up. The smaller the value is, the faster it will light up.
+
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_02.1_WS2812/Sketch_02.1_WS2812.ino
+    :linenos: 
+    :language: c
+    :lines: 17-17
+    :dedent:
+
 Initialize strip() in setup() and set the brightness.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_02.1_WS2812/Sketch_02.1_WS2812.ino
@@ -129,17 +137,17 @@ Reference
     
     **t:** Types of LED.
     
-        :red:`TYPE_RGB:` The sequence of Ws2812 module loading color is red, green and blue.
+        :combo:`red font-bolder:TYPE_RGB:` The sequence of Ws2812 module loading color is red, green and blue.
         
-        :red:`TYPE_RBG:` The sequence of Ws2812 module loading color is red, blue and green.
+        :combo:`red font-bolder:TYPE_RBG:` The sequence of Ws2812 module loading color is red, blue and green.
         
-        :red:`TYPE_GRB:` The sequence of Ws2812 module loading color is green, red and blue.
+        :combo:`red font-bolder:TYPE_GRB:` The sequence of Ws2812 module loading color is green, red and blue.
         
-        :red:`TYPE_GBR:` The sequence of Ws2812 module loading color is green, blue and red.
+        :combo:`red font-bolder:TYPE_GBR:` The sequence of Ws2812 module loading color is green, blue and red.
         
-        :red:`TYPE_BRG:` The sequence of Ws2812 module loading color is blue, red and green. 
+        :combo:`red font-bolder:TYPE_BRG:` The sequence of Ws2812 module loading color is blue, red and green. 
         
-        :red:`TYPE_BGR:` The sequence of Ws2812 module loading color is blue,g reen and red. 
+        :combo:`red font-bolder:TYPE_BGR:` The sequence of Ws2812 module loading color is blue,g reen and red. 
     
 .. py:function:: void begin(void);	
     

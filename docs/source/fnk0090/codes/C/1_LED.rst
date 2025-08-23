@@ -1,5 +1,5 @@
 ##############################################################################
-Chapter LED
+Chapter 1 LED
 ##############################################################################
 
 This chapter is the Start Point in the journey to build and explore ESP32 electronic projects. We will start with simple "Blink" project.
@@ -41,7 +41,7 @@ Sketch
 
 According to the circuit, when the GPIO2 of ESP32-WROOM output level is high, the LED turns ON. Conversely, when the GPIO2 ESP32-WROOM output level is low, the LED turns OFF. Therefore, we can let GPIO2 circularly output high and low level to make the LED blink.
 
-Upload the following Sketch: s
+Upload the following Sketch:
 
 **Freenove_ESP32_WROOM_Board\Sketches\Sketch_01.1_Blink.**
 
@@ -54,7 +54,7 @@ Select the serial port.
 
 .. note:: 
     
-    For macOS users, if the uploading fails, please set the baud rate to 115200 before clicking "Upload Using Programmer".
+    **For macOS users, if the uploading fails, please set the baud rate to 115200 before clicking "Upload Using Programmer".**
 
 .. image:: ../_static/imgs/1_LED/Chapter01_03.png
     :align: center
@@ -70,11 +70,11 @@ Click "Upload", Download the code to ESP32-WROOM and your LED in the circuit sta
 .. image:: ../_static/imgs/1_LED/Chapter01_05.png
     :align: center
 
-:red:`If you have any concerns, please contact us via:` support@freenove.com
+:combo:`red font-bloder:If you have any concerns, please contact us via:` support@freenove.com
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_02.1_ButtonAndLed/Sketch_02.1_ButtonAndLed.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_01.1_Blink/Sketch_01.1_Blink.ino
     :linenos: 
     :language: c
     :dedent:

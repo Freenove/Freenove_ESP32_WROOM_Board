@@ -8,12 +8,26 @@
 from datetime import datetime
 import os
 import pathlib
+import subprocess
 import sys
 
 sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 
-os.system("rm -r freenove_Kit")
-os.system("git clone --depth 1 https://github.com/Freenove/Freenove_ESP32_WROOM_Board freenove_Kit")
+repo_url = "https://github.com/Freenove/Freenove_ESP32_WROOM_Board"
+repo_dir = "freenove_Kit"
+
+if os.path.isdir(repo_dir):
+    print(f"Directory '{repo_dir}' found. Pulling latest changes...")
+    try:
+        subprocess.run(["git", "-C", repo_dir, "pull"], check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Error pulling repository: {e}")
+else:
+    print(f"Directory '{repo_dir}' not found. Cloning repository...")
+    try:
+        subprocess.run(["git", "clone", "--depth", "1", repo_url, repo_dir], check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Error cloning repository: {e}")
 
 project = "fnk0090-docs"
 # <!!!BEGIN!!!>

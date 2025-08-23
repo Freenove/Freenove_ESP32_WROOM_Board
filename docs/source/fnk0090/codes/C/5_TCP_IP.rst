@@ -1,5 +1,5 @@
 ##############################################################################
-Chapter TCP/IP
+Chapter 5 TCP/IP
 ##############################################################################
 
 In this chapter, we will introduce how ESP32 implements network communications based on TCP/IP protocol. There are two roles in TCP/IP communication, namely Server and Client, which will be implemented respectively with two projects in this chapter.
@@ -13,9 +13,10 @@ Component List
 ===================================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  Type C Wire x1
@@ -76,7 +77,7 @@ Install ControlP5.
 .. image:: ../_static/imgs/5_TCP_IP/Chapter05_05.png
     :align: center
 
-Open the " **Freenove_ESP32_WROOM_Board\Sketches\Sketches\Sketch_05.1_WiFiClient\sketchWiFi\sketchWiFi.pde** ", and click "Run".
+Open the "**Freenove_ESP32_WROOM_Board\\Sketches\\Sketches\\Sketch_05.1_WiFiClient\\sketchWiFi\\sketchWiFi.pde**", and click "Run".
 
 .. image:: ../_static/imgs/5_TCP_IP/Chapter05_06.png
     :align: center
@@ -263,6 +264,7 @@ Component List
    :width: 100%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  Type C Wire x1
@@ -288,6 +290,9 @@ Before running Sketch, please modify the contents of the box below first.
 
 Sketch_05.2_As_Server
 --------------------------
+
+.. image:: ../_static/imgs/5_TCP_IP/Chapter05_27.png
+    :align: center
 
 Compile and upload code to ESP32-WROOM board, open the serial monitor and set the baud rate to 115200. Turn on server mode for ESP32, waiting for the connection of other devices on the same LAN. Once a device connects to server successfully, they can send messages to each other.
 

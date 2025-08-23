@@ -1,5 +1,5 @@
 ##############################################################################
-Chapter WiFi Working Modes
+Chapter 4 WiFi Working Modes
 ##############################################################################
 
 In this chapter, we'll focus on the WiFi infrastructure for ESP32-WROOM. 
@@ -13,9 +13,10 @@ Component List
 ===================================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  Type C Wire x1
@@ -34,7 +35,7 @@ Station mode
 
 When ESP32 selects Station mode, it acts as a WiFi client. It can connect to the router network and communicate with other devices on the router via WiFi connection. As shown below, the PC is connected to the router, and if ESP32 wants to communicate with the PC, it needs to be connected to the router.
 
-.. image:: ../_static/imgs/4_WiFi_Working_Modes/Chapter04_00.png
+.. image:: ../_static/imgs/4_WiFi_Working_Modes/Chapter04_10.png
     :align: center
 
 Circuit
@@ -229,10 +230,14 @@ Set ESP32 in AP mode.
 Configure IP address, gateway and subnet mask for ESP32.
 
 .. code-block:: c
+    :linenos:
 
     WiFi.softAPConfig(local_IP, gateway, subnet)
 
 Turn on an AP in ESP32, whose name is set by ssid_AP and password is set by password_AP.
+
+.. code-block:: c
+    :linenos:
 
     WiFi.softAP(ssid_AP, password_AP);
 
@@ -282,9 +287,10 @@ Component List
 ===================================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  Type C Wire x1

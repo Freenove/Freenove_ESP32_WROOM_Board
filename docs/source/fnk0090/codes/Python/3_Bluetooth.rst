@@ -1,5 +1,5 @@
 ##############################################################################
-Chapter Bluetooth
+Chapter 3 Bluetooth
 ##############################################################################
 
 This chapter mainly introduces how to make simple data transmission through Bluetooth of ESP32-WROOM and mobile phones.
@@ -11,9 +11,10 @@ Component List
 ===============================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  USB cable

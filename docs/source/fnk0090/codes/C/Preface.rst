@@ -19,7 +19,8 @@ ESP32-WROOM has launched a total of two antenna packages, PCB on-board antenna a
 
 .. list-table:: 
    :width: 80%
-   :header-rows: 1 
+   :header-rows: 1
+   :class: table-line
    :align: center
    
    * -  PCB on-board antenna 
@@ -34,8 +35,8 @@ ESP32-WROOM has launched a total of two antenna packages, PCB on-board antenna a
 In this tutorial, the ESP32-WROOM is designed based on the PCB on-board antenna-packaged ESP32-WROOM-32E module. 
 
 .. list-table:: 
-   :width: 80%
    :header-rows: 1 
+   :class: table-line
    :align: center
    
    * -  ESP32-WROOM
@@ -53,25 +54,26 @@ Compare the left and right images. We've boxed off the resources on the ESP32-WR
 .. list-table:: 
    :width: 80%
    :header-rows: 1 
+   :class: table-line
    :align: center
    
    * -  Box color 
      -  Corresponding resources introduction
 
    * -  |Preface04|
-     -  GPIO pin
+     -  **GPIO pin**
 
    * -  |Preface05|
-     -  LED indicator
+     -  **LED indicator**
 
    * -  |Preface06|
-     -  WS2812
+     -  **WS2812**
 
    * -  |Preface07|
-     -  Reset button, Boot mode selection button 
+     -  **Reset button, Boot mode selection button**
 
    * -  |Preface08|
-     -  Type C port
+     -  **Type C port**
 
 .. |Preface04| image:: ../_static/imgs/Preface/Preface04.png
 .. |Preface05| image:: ../_static/imgs/Preface/Preface05.png
@@ -120,12 +122,12 @@ If you would not like to download the installation package, you can open " **Fre
 .. image:: ../_static/imgs/Preface/Preface13.png
     :align: center
 
-2.	Open the folder "Freenove_ESP32_WROOM_Board/CH340/Windows/"
+2.	Open the folder **"Freenove_ESP32_WROOM_Board/CH340/Windows/"**
 
 .. image:: ../_static/imgs/Preface/Preface14.png
     :align: center
 
-3.	Double click " **CH341SER.EXE** ".
+3.	Double click "**CH341SER.EXE**".
 
 .. image:: ../_static/imgs/Preface/Preface15.png
     :align: center
@@ -155,9 +157,9 @@ First, download CH340 driver, click http://www.wch-ic.com/search?q=CH340&t=downl
 .. image:: ../_static/imgs/Preface/Preface19.png
     :align: center
 
-If you would not like to download the installation package, you can open "Freenove_ESP32_WROOM_Board/CH340", we have prepared the installation package.
+If you would not like to download the installation package, you can open **"Freenove_ESP32_WROOM_Board/CH340"**, we have prepared the installation package.
 
-Second, open the folder "Freenove_ESP32_WROOM_Board/CH340/MAC/"
+Second, open the folder **"Freenove_ESP32_WROOM_Board/CH340/MAC/"**
 
 .. image:: ../_static/imgs/Preface/Preface20.png
     :align: center
@@ -216,11 +218,11 @@ The interface of Arduino Software is as follows:
 .. image:: ../_static/imgs/Preface/Preface29.png
     :align: center
 
-Programs written with Arduino Software (IDE) are called sketches. These sketches are written in the text editor and saved with the file extension.ino. The editor features text cutting/pasting and searching/replacing. The message area gives feedback while saving and exporting and also displays errors. The console displays text output by the Arduino Software (IDE), including complete error messages and other information. The bottom right-hand corner of the window displays the configured board and serial port. The toolbar buttons allow you to verify and upload programs, create, open, and save sketches, and open the serial monitor.
+Programs written with Arduino Software (IDE) are called **sketches**. These sketches are written in the text editor and saved with the file extension.**ino**. The editor features text cutting/pasting and searching/replacing. The message area gives feedback while saving and exporting and also displays errors. The console displays text output by the Arduino Software (IDE), including complete error messages and other information. The bottom right-hand corner of the window displays the configured board and serial port. The toolbar buttons allow you to verify and upload programs, create, open, and save sketches, and open the serial monitor.
 
 .. list-table:: 
-   :width: 100%
    :align: center
+   :class: table-line
    
    * -  |Preface30|
      -  Verify 

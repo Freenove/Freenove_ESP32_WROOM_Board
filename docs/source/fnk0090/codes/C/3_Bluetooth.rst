@@ -1,5 +1,5 @@
 ##############################################################################
-Chapter Bluetooth
+Chapter 3 Bluetooth
 ##############################################################################
 
 This chapter mainly introduces how to make simple data transmission through Bluetooth of ESP32-WROOM and mobile phones.
@@ -13,9 +13,10 @@ Component List
 ===================================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  Type C Wire x1
@@ -90,12 +91,15 @@ Turn on software APP, click the left of the terminal. Select "Devices"
 
 Select ESP32test in classic Bluetooth mode, and a successful connecting prompt will appear as shown on the right illustration.
 
-.. image:: ../_static/imgs/3_Bluetooth/Chapter03_07.png
+.. image:: ../_static/imgs/3_Bluetooth/Chapter03_36.png
     :align: center
 
 And now data can be transferred between your mobile phone and computer via ESP32-WROOM.
 
 Send 'Hello!'' from your phone, when the computer receives it, reply "Hi" to your phone.
+
+.. image:: ../_static/imgs/3_Bluetooth/Chapter03_07.png
+    :align: center
 
 .. image:: ../_static/imgs/3_Bluetooth/Chapter03_08.png
     :align: center
@@ -142,9 +146,10 @@ Component List
 ================================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  Type C Wire x1
@@ -279,6 +284,14 @@ Write a Callback function for BLE server to manage connection of BLE.
     :linenos: 
     :language: c
     :lines: 23-31
+    :dedent:
+
+Write Callback function with BLE features. When it is called, as the mobile terminal send data to ESP32, it will store them into reload.
+
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_03.2_BLE_USART/Sketch_03.2_BLE_USART.ino
+    :linenos: 
+    :language: c
+    :lines: 33-43
     :dedent:
 
 Initialize the BLE function and name it.

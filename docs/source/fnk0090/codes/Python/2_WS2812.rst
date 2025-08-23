@@ -1,5 +1,5 @@
 ##############################################################################
-Chapter WS2812
+Chapter 2 WS2812
 ##############################################################################
 
 This chapter will help you learn to use a more convenient RGB LED lamp, which requires only one GPIO control and can be connected in infinite series in theory. Each LED can be controlled independently.
@@ -8,9 +8,10 @@ Component List
 ===============================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  USB cable
@@ -32,7 +33,7 @@ Connect your computer and ESP32 with a USB cable.
 Code
 =============================
 
-Codes used in this tutorial are saved in "Freenove_ESP32_WROOM_Board/Python/Python_Codes". You can move the codes to any location. For example, we save the codes in Disk(D) with the path of "D:/Micropython_Codes".
+Codes used in this tutorial are saved in "**Freenove_ESP32_WROOM_Board/Python/Python_Codes**". You can move the codes to any location. For example, we save the codes in Disk(D) with the path of "**D:/Micropython_Codes**".
 
 02.1_Neopixels
 ---------------------------

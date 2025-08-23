@@ -1,5 +1,5 @@
 ##############################################################################
-Chapter TCP/IP
+Chapter 5 TCP/IP
 ##############################################################################
 
 In this chapter, we will introduce how ESP32 implements network communications based on TCP/IP protocol. There are two roles in TCP/IP communication, namely Server and Client, which will be implemented respectively with two projects in this chapter.
@@ -13,9 +13,10 @@ Component List
 ===================================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  Type C Wire x1
@@ -66,19 +67,11 @@ Unzip the downloaded file to your computer. Click "processing.exe" as the figure
     :align: center
 
 Use Server mode for communication
-----------------------------------
-
-Install ControlP5.
-
-.. image:: ../_static/imgs/5_TCP_IP/Chapter05_04.png
-    :align: center
-
-.. image:: ../_static/imgs/5_TCP_IP/Chapter05_05.png
-    :align: center
+------------------------------------
 
 Open the " **Freenove_ESP32_WROOM_Board\Sketches\Sketches\Sketch_05.1_WiFiClient\sketchWiFi\sketchWiFi.pde** ", and click "Run".
 
-.. image:: ../_static/imgs/5_TCP_IP/Chapter05_06.png
+.. image:: ../_static/imgs/5_TCP_IP/Chapter05_28.png
     :align: center
 
 The new pop-up interface is as follows. If ESP32 is used as client, select TCP SERVER mode for sketchWiFi.
@@ -138,7 +131,7 @@ The newly pop up window will use the computer's IP address by default and open a
 
 Move the program folder “Freenove_ESP32_WROOM_Board/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer”  “D:”  “Micropython_Codes”  “05.1_TCP_as_Client” and double click “TCP_as_Client.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “05.1_TCP_as_Client” and double click “TCP_as_Client.py”. 
 
 Before clicking “Run current script”, please modify the name and password of your router and fill in the “host” and “port” according to the IP information shown in the box below:
 
@@ -276,9 +269,10 @@ Component List
 ===================================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  Type C Wire x1
@@ -300,9 +294,9 @@ Connect Freenove ESP32 to the computer using the USB cable.
 Code
 =======================
 
-Move the program folder “Freenove_ESP32_WROOM_Board/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
+Move the program folder **“Freenove_ESP32_WROOM_Board/Python/Python_Codes”** to disk(D) in advance with the path of **“D:/Micropython_Codes”**.
 
-Open “Thonny”, click “This computer”  “D:”  “Micropython_Codes”  “05.2_TCP_as_Server” and double click “TCP_as_Server.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “05.2_TCP_as_Server” and double click “TCP_as_Server.py”. 
 
 Before clicking “Run current script”, please modify the name and password of your router shown in the box below.
 

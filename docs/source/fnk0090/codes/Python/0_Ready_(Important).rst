@@ -1,5 +1,5 @@
 ##############################################################################
-0. Chapter Ready (Important)
+Chapter 0 Ready (Important)
 ##############################################################################
 
 Before starting building the projects, you need to make some preparation first, which is so crucial that you must not skip.
@@ -22,39 +22,43 @@ Open-source code repositories of Thonny: https://github.com/thonny/thonny
 
 Follow the instruction of official website to install Thonny or click the links below to download and install. (Select the appropriate one based on your operating system.)
 
-+------------------+----------------------------------------------------------------------------+
-| Operating System | Download links/methods                                                     |
-+------------------+----------------------------------------------------------------------------+
-| Windows          | https://github.com/thonny/thonny/releases/download/v4.1.1/thonny-4.1.1.exe |
-+------------------+----------------------------------------------------------------------------+
-| Mac OS           | https://github.com/thonny/thonny/releases/download/v4.1.1/thonny-4.1.1.pkg |
-+------------------+----------------------------------------------------------------------------+
-|                  | **The latest version:**                                                    |
-|                  |                                                                            |
-|                  | **Binary bundle for PC (Thonny+Python):**                                  |
-|                  |                                                                            |
-|                  | bash <(wget -O - https://thonny.org/installer-for-linux)                   |
-|                  |                                                                            |
-|                  | |                                                                          |
-|                  |                                                                            |
-|                  | **With pip:**                                                              |
-|                  |                                                                            |
-|                  | pip3 install thonny                                                        |
-|                  |                                                                            |
-| Linux            | |                                                                          |
-|                  |                                                                            |
-|                  | **Distro packages (may not be the latest version):**                       |
-|                  |                                                                            |
-|                  | **Debian, Rasbian, Ubuntu, Mint and others:**                              |
-|                  |                                                                            |
-|                  | sudo apt install thonny                                                    |
-|                  |                                                                            |
-|                  | |                                                                          |
-|                  |                                                                            |
-|                  | **Fedora:**                                                                |
-|                  |                                                                            |
-|                  | sudo dnf install thonny                                                    |
-+------------------+----------------------------------------------------------------------------+
+.. table::
+    :align: center
+    :class: zebra
+
+    +------------------+----------------------------------------------------------------------------+
+    | Operating System | Download links/methods                                                     |
+    +==================+============================================================================+
+    | Windows          | https://github.com/thonny/thonny/releases/download/v4.1.1/thonny-4.1.1.exe |
+    +------------------+----------------------------------------------------------------------------+
+    | Mac OS           | https://github.com/thonny/thonny/releases/download/v4.1.1/thonny-4.1.1.pkg |
+    +------------------+----------------------------------------------------------------------------+
+    |                  | **The latest version:**                                                    |
+    |                  |                                                                            |
+    |                  | **Binary bundle for PC (Thonny+Python):**                                  |
+    |                  |                                                                            |
+    |                  | bash <(wget -O - https://thonny.org/installer-for-linux)                   |
+    |                  |                                                                            |
+    |                  | |                                                                          |
+    |                  |                                                                            |
+    |                  | **With pip:**                                                              |
+    |                  |                                                                            |
+    |                  | pip3 install thonny                                                        |
+    |                  |                                                                            |
+    | Linux            | |                                                                          |
+    |                  |                                                                            |
+    |                  | **Distro packages (may not be the latest version):**                       |
+    |                  |                                                                            |
+    |                  | **Debian, Rasbian, Ubuntu, Mint and others:**                              |
+    |                  |                                                                            |
+    |                  | sudo apt install thonny                                                    |
+    |                  |                                                                            |
+    |                  | |                                                                          |
+    |                  |                                                                            |
+    |                  | **Fedora:**                                                                |
+    |                  |                                                                            |
+    |                  | sudo dnf install thonny                                                    |
+    +------------------+----------------------------------------------------------------------------+
 
 You can also open " **/Python/Python_Software** ", we have prepared it in advance.
 
@@ -122,7 +126,7 @@ Select "View" -> "Files" and "Shell".
 .. image:: ../_static/imgs/0_Ready_(Important)/Chapter00_11.png
     :align: center
 
-03. CH340 (Importance)
+0.3 CH340 (Importance)
 ***************************************
 
 ESP32 uses CH340 to download codes. So before using it, we need to install CH340 driver in our computers.
@@ -156,17 +160,17 @@ Installing CH340
 .. image:: ../_static/imgs/0_Ready_(Important)/Chapter00_15.png
     :align: center
 
-If you would not like to download the installation package, you can open "Freenove_ESP32_WROOM_Board/CH340", we have prepared the installation package.
+If you would not like to download the installation package, you can open "**Freenove_ESP32_WROOM_Board/CH340**", we have prepared the installation package.
 
 .. image:: ../_static/imgs/0_Ready_(Important)/Chapter00_16.png
     :align: center
 
-2.	Open the folder "Freenove_ESP32_WROOM_Board/CH340/Windows/"
+2.	Open the folder "**Freenove_ESP32_WROOM_Board/CH340/Windows/**"
 
 .. image:: ../_static/imgs/0_Ready_(Important)/Chapter00_17.png
     :align: center
 
-3.	Double click "CH341SER.EXE".
+3.	Double click "**CH341SER.EXE**".
 
 .. image:: ../_static/imgs/0_Ready_(Important)/Chapter00_18.png
     :align: center
@@ -196,7 +200,7 @@ First, download CH340 driver, click http://www.wch-ic.com/search?q=CH340&t=downl
 .. image:: ../_static/imgs/0_Ready_(Important)/Chapter00_22.png
     :align: center
 
-If you would not like to download the installation package, you can open "Freenove_ESP32_WROOM_Board/CH340", we have prepared the installation package.
+If you would not like to download the installation package, you can open "**Freenove_ESP32_WROOM_Board/CH340**", we have prepared the installation package.
 
 Second, open the folder " **Freenove_ESP32_WROOM_Board/CH340/MAC/** "
 
@@ -390,7 +394,7 @@ Each time when ESP32 restarts, if there is a "boot.py" in the root directory, it
 .. image:: ../_static/imgs/0_Ready_(Important)/Chapter00_49.png
     :align: center
 
-Select "Blink.py" in "01.1_Blink", right-click your mouse and select "Upload to /" to upload code to ESP32’s root directory.
+Select "Blink.py" in "01.1_Blink", right-click your mouse and select "Upload to /" to upload code to ESP32's root directory.
 
 .. image:: ../_static/imgs/0_Ready_(Important)/Chapter00_50.png
     :align: center
@@ -406,7 +410,7 @@ Select "boot.py" in "MicroPython device", right-click to select "Download to ...
 Deleting Files from ESP32's Root Directory 
 ================================================
 
-Select "boot.py" in "MicroPython device", right-click it and select "Delete" to delete "boot.py" from ESP32’s root directory.
+Select "boot.py" in "MicroPython device", right-click it and select "Delete" to delete "boot.py" from ESP32's root directory.
 
 .. image:: ../_static/imgs/0_Ready_(Important)/Chapter00_52.png
     :align: center

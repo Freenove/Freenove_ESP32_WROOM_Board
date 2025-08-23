@@ -1,5 +1,5 @@
 ##############################################################################
-Preface
+Prepare
 ##############################################################################
 
 ESP32 is a micro control unit with integrated Wi-Fi launched by Espressif, which features strong properties and integrates rich peripherals. It can be designed and studied as an ordinary Single Chip Micyoco(SCM) chip, or connected to the Internet and used as an Internet of Things device.
@@ -21,6 +21,7 @@ ESP32-WROOM has launched a total of two antenna packages, PCB on-board antenna a
    :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  PCB on-board antenna 
      -  IPEX antenna
@@ -37,6 +38,7 @@ In this tutorial, the ESP32-WROOM is designed based on the PCB on-board antenna-
    :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM
    * -  |Preface02|
@@ -54,6 +56,7 @@ Compare the left and right images. We've boxed off the resources on the ESP32-WR
    :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  Box color 
      -  Corresponding resources introduction

@@ -1,5 +1,5 @@
 ##############################################################################
-Chapter WiFi Working Modes
+Chapter 4 WiFi Working Modes
 ##############################################################################
 
 In this chapter, we'll focus on the WiFi infrastructure for ESP32-WROOM. 
@@ -13,9 +13,10 @@ Component List
 ===============================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  USB cable
@@ -225,6 +226,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/04.2_AP_mode/AP_mode.py
     :linenos: 
     :language: python
+    :lines: 1-25
     :dedent:
 
 Import network module.
@@ -325,9 +327,10 @@ Component List
 ===============================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  USB cable
@@ -381,15 +384,7 @@ Turn on the WiFi scanning function of your phone, and you can see the ssidAP on 
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/05.2_TCP_as_Server/TCP_as_Server.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/04.3_AP+STA_mode/AP+STA_mode.py
     :linenos: 
     :language: python
-    :dedent:
-
-Call function connectWifi() to connect to router and obtain the dynamic IP that it assigns to ESP32.
-
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/05.2_TCP_as_Server/TCP_as_Server.py
-    :linenos: 
-    :language: python
-    :lines: 
     :dedent:

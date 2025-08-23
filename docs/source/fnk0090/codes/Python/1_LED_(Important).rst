@@ -1,10 +1,11 @@
 ##############################################################################
-Chapter LED (Important)
+Chapter 1 LED (Important)
 ##############################################################################
 
 This chapter is the Start Point in the journey to build and explore ESP32 electronic projects. We will start with simple "Blink" project.
 
 Project 1.1 Blink
+************************************
 
 In this project, we will use ESP32 to control blinking a common LED.
 
@@ -18,9 +19,10 @@ Component List
 ===============================
 
 .. list-table:: 
-   :width: 100%
+   :width: 80%
    :header-rows: 1 
    :align: center
+   :class: table-line
    
    * -  ESP32-WROOM x1
      -  USB cable
@@ -44,8 +46,7 @@ In the following projects, we only use USB cable to power ESP32-WROOM by default
 Code
 ===================================
 
-Codes used in this tutorial are saved in "Freenove_ESP32_WROOM_Board/Python/
-Python_Codes". You can move the codes to any location. For example, we save the codes in Disk(D) with the path of "D:/Micropython_Codes".
+Codes used in this tutorial are saved in **"Freenove_ESP32_WROOM_Board/Python/Python_Codes"**. You can move the codes to any location. For example, we save the codes in Disk(D) with the path of "D:/Micropython_Codes".
 
 01.1_Blink
 ------------------------------------
@@ -97,13 +98,14 @@ Press the reset key of ESP32 and you can see LED is ON for one second and then O
 .. image:: ../_static/imgs/1_LED/Chapter01_14.png
     :align: center
 
-:red:`If you have any concerns, please contact us via:` support@freenove.com
+:combo:`red font-bolder:If you have any concerns, please contact us via:` support@freenove.com
 
 The following is the program code:
 
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/01.1_Blink/Blink.py
     :linenos: 
     :language: python
+    :lines: 1-12
     :dedent:
 
 Each time a new file is opened, the program will be executed from top to bottom. When encountering a loop construction, it will execute the loop statement according to the loop condition.
@@ -114,6 +116,7 @@ Each time a new file is opened, the program will be executed from top to bottom.
 Print() function is used to print data to Terminal. It can be executed in Terminal directly or be written in a Python file and executed by running the file.
 
 .. code-block:: python
+    :linenos:
 
     print("Hello world!")
 
@@ -154,6 +157,7 @@ Set the value of LED to 0 and GPIO2 will output low level.
 Execute codes in a while loop.
 
 .. code-block:: python
+    :linenos:
 
     while True:
         ......
@@ -163,6 +167,7 @@ Put statements that may cause an error in "try" block and the executing statemen
 "Pass" is an empty statement. When it is executed, nothing happens. It is useful as a placeholder to make the structure of a program look better. 
 
 .. code-block:: python
+    :linenos:
 
     try:
         ...
@@ -172,6 +177,7 @@ Put statements that may cause an error in "try" block and the executing statemen
 The single-line comment of Micropython starts with a "#" and continues to the end of the line. Comments help us to understand code. When programs are running, Thonny will ignore comments.
 
 .. code-block:: python
+    :linenos:
 
     #Set led turn on
 

@@ -19,7 +19,6 @@ C language
 .. toctree::
    :maxdepth: 1
    :caption: Projects
-   :numbered:
    :glob:
 
    C/1_LED.rst
