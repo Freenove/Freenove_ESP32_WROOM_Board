@@ -280,9 +280,6 @@ Component List
    * -  |Chapter01_00|
      -  |Chapter01_01|
 
-.. |Chapter01_00| image:: ../_static/imgs/1_LED/Chapter01_00.png
-.. |Chapter01_01| image:: ../_static/imgs/1_LED/Chapter01_01.png
-
 Circuit
 ======================
 
